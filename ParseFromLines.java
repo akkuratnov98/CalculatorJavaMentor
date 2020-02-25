@@ -3,10 +3,10 @@ package сalculator;
 import java.io.IOException;
 
 public class ParseFromLines {
-    String inLine;
-    ValAndOperation element = new ValAndOperation();
-    String[] rome = new String[]{"X","I","II","III","IV","V","VI","VII","VIII","IX"};
-    String[] availableOperations = new String[]{"+", "-", "/", "*"};
+    private String inLine;
+    private ValAndOperation element = new ValAndOperation();
+    private String[] rome = new String[]{"X","I","II","III","IV","V","VI","VII","VIII","IX"};
+    private String[] availableOperations = new String[]{"+", "-", "/", "*"};
     //ValueWithType valueWithType = new ValueWithType();
     
     public ParseFromLines(String inLine) {
